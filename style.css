@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: rgba(10, 236, 62, 0.759);
+}
+
+header {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+section {
+    background: white;
+    width: 500px;
+    margin: auto;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.227);
+    text-align: center;
+
+}
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.div1 {
+    margin: auto;
+    padding: 30px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+
+}
+
+input {
+    text-align: center;
+    cursor: pointer;
+}
+
+label {
+    margin: 10px;
+}

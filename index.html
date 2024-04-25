@@ -1,35 +1,40 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Modelo Kaiki</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="reponsivo.css" />
+  </head>
 
-<body>
+  <body>
     <header>
-        <h1><i>NOVO EXERCICIO </i></h1>
+      <h1><i>NOVO EXERCICIO </i></h1>
     </header>
     <section>
-        <div class="div1">
-            <label for="diametro">Diamêtro:</label>
-            <input id="diametro" type="number" placeholder="Digite o Diamêtro"><br>
-            <label for="altura">Altura:</label>
-            <input id="altura" class="input2" type="number" placeholder="Digite a Altura">
-            <br>
-            <input onclick="resultado()" type="submit" value="Calcular">
-        </div>
-        <div>
-            <p id="aqui">resultado</p>
-        </div>
+      <div class="div1">
+        <label for="diametro">Diamêtro:</label>
+        <input
+          id="diametro"
+          type="number"
+          placeholder="Digite o Diamêtro"
+        /><br />
+        <label for="altura">Altura:</label>
+        <input
+          id="altura"
+          class="input2"
+          type="number"
+          placeholder="Digite a Altura"
+        />
+        <br />
+        <input onclick="resultado()" type="submit" value="Calcular" />
+      </div>
+      <div>
+        <p id="aqui">resultado</p>
+      </div>
     </section>
-    <footer>
-        &copy;
-        Kaiki-Dev
-    </footer>
+    <footer>&copy; Kaiki-Dev</footer>
     <script src="js/index.js"></script>
-</body>
-
+  </body>
 </html>

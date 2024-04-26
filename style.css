@@ -63,6 +63,7 @@ p {
 input[type="submit"] {
   text-decoration: none;
   border: 2px solid greenyellow;
+  color: black;
   background: white;
   font-weight: bold;
 }

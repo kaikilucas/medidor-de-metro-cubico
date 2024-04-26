@@ -44,10 +44,6 @@ input {
   cursor: pointer;
   text-decoration: none;
 }
-input[type="submit"] {
-  background: white;
-  border: 2px solid blue;
-}
 
 input[type="number"]::-webkit-inner-spin-button {
   -webkit-appearance: none;
